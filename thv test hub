@@ -9503,17 +9503,4 @@ local function wl(key)
                 end
             )
         end
-        ------ Attack Functions ---------
-        
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/memaybeohub/Function-Scripts/main/FastAttackLoader.lua"))()
-        -- Final Load --
-        LoadedUiHub = true
-        Window:SelectTab(1)
-        Fluent:Notify(
-            {
-                Title = "Tsuo Hub",
-                Content = "The script has been loaded successful.",
-                Duration = 15
-            }
-        )
-
+     
