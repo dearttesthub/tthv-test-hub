@@ -6705,7 +6705,7 @@ end
 
 
 Tabs.Ok:AddSection({"Team"})
-Misc:AddButton({"Join Pirates Team", function()
+Tabs.Ok:AddButton({"Join Pirates Team", function()
   FireRemote("SetTeam", "Pirates")
 end})
 
